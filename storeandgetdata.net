@@ -28,3 +28,5 @@ int gameScore;
 decimal particlesPerMillion;
 
 bool processedCustomer;
+
+var message = "Hello world!";
