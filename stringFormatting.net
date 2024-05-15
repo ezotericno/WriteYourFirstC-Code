@@ -24,3 +24,32 @@ Console.Write(@"c:\invoices");
 // Unicode escape char
 // Kon'nichiwa World
 Console.WriteLine("\u3053\u3093\u306B\u3061\u306F World!");
+
+// concatenate string literals
+string firstName = "Bob";
+string message = "Hello " + firstName;
+Console.WriteLine(message);
+
+string firstName = "Bob";
+string greeting = "Hello";
+string message = greeting + " " + firstName + "!";
+Console.WriteLine(message);
+
+string firstName = "Bob";
+string greeting = "Hello";
+Console.WriteLine(greeting + " " + firstName + "!");
+
+// interpolation
+string message = $"{greeting} {firstName}!";
+
+string firstName = "Bob";
+string message = $"Hello {firstName}!";
+Console.WriteLine(message);
+
+int version = 11;
+string updateText = "Update to Windows";
+string message = $"{updateText
+
+string projectName = "First-Project";
+Console.WriteLine($@"C:\Output\{projectName}\Data");} {version}";
+Console.WriteLine(message);
