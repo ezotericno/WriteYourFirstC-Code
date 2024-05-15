@@ -19,6 +19,7 @@ Console.WriteLine(true);
 // Variables
 string firstName;
 firstName = "Bob";
+Console.WriteLine(firstName);
 
 char userOption;
 
